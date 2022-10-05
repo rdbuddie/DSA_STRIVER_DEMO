@@ -1,12 +1,11 @@
 package Dynamic_Programming;
 
 /*
- * Problem Statement:
+ *      https://www.codingninjas.com/codestudio/problems/maximum-sum-of-non-adjacent-elements_843261
+ *      Problem Statement:
  *      You are given an array/list of 'N' integers. You are supposed to return the
         maximum sum of the subsequence with the constraint that no two elements
         are adjacent in the given array/list.
-
-        https://www.codingninjas.com/codestudio/problems/maximum-sum-of-non-adjacent-elements_843261
  */
 public class DP5_HouseRobber {
     public static void main(String[] args) {
