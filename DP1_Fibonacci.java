@@ -8,6 +8,7 @@ public class DP1_Fibonacci {
         System.out.print("Enter n: ");
         int n = sc.nextInt();
 
+        // Recursion
         System.out.println(fibonacciRecursion(n));
 
         // Memoization
