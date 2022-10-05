@@ -69,6 +69,7 @@ public class DP7_NinjaTraining {
         System.out.println(dp[n - 1][3]);
     }
 
+    // Recursion
     public static int ninjaTrainingRec(int day, int last, int[][] points) {
         if (day == 0) {
             int maxi = 0;
@@ -92,6 +93,8 @@ public class DP7_NinjaTraining {
         return maxi;
     }
 
+        
+    // Memoization
     public static int ninjaTrainingMem(int day, int last, int[][] points, int[][] dp) {
         if (day == 0) {
             int maxi = 0;
